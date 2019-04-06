@@ -1,5 +1,5 @@
 body{
-    background-image: url("/images/dice1.jpg");
+    background-image: url("/images/front.jpg");
     background-size: 100%;
 }
 .container{
@@ -8,4 +8,8 @@ body{
 }
 .panel-default{
     background-color: blue;
+    float:left;
+    padding: 10px;
+    margin: 5px;
 }
+
