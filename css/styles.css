@@ -1,0 +1,11 @@
+body{
+    background-image: url("/images/dice1.jpg");
+    background-size: 100%;
+}
+.container{
+    color:maroon;
+    text-align: center;
+}
+.panel-default{
+    background-color: blue;
+}
