@@ -2,8 +2,14 @@ body{
     background-image: url("/images/dice-643639_960_720.png");
     background-size: 100%;
 }
-
-
+p{
+    color:red;
+    font-size: 20px
+}
+li{
+    font-size: 20px;
+    color: red;
+}
 
 h1{
     color: black;
