@@ -1,15 +1,75 @@
-body{
-    background-image: url("/images/front.jpg");
-    background-size: 100%;
-}
-.container{
-    color:maroon;
+.container>h1 {
     text-align: center;
+    font-family:  Tahoma;
+    font-size: 350%;
+    text-decoration: underline;
+    color: blue;
 }
-.panel-default{
-    background-color: blue;
-    float:left;
-    padding: 10px;
-    margin: 5px;
+body{
+    background-color: black;
+    background-image: url("/images/dice-3.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
 }
+.well{
+    opacity: 0.88;
+}
+.well>h3{
+    text-align: center;
+    font-family: Helvetica;
+    text-decoration: underline;
+}
+.well>h3:hover{
+    color:blue;
+    cursor: pointer;
+    font-family: arial;
+}
+#rules>h4 {
+    text-decoration: underline;
+    font-family: unset;
+}
+.jumbotron{
+    opacity: 0.88;
+}
+.jumbotron>h2{
+    text-align: center;
+    font-family:  Calibri;
+    text-decoration: underline;
+}
+.jumbotron>p{
+    font-family: Calibri;
+    font-style: italic;
+}
+#game>strong{
+    text-decoration: underline;
+}
+#game>strong:hover {
+    color:red;
+    cursor:pointer;
+}
+.play>h4{
+    text-align: center;
+    font-family: Permamanent Marker;
+}
+.start>a{
+    font-family:Helvetica;
+    text-decoration: underline;
+    color: red;
+    font-size: 150%;
+}
+.start>a:hover {
+    cursor:pointer;
+    font-style: italic;
+}
+#p1{
+    text-align:center;
+    background-color: darkblue;
+}
+#p2{
+    text-align:center;
+    background-color: black;
+}
+#P {
+    text-align: center;
 
+}
