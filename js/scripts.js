@@ -19,14 +19,14 @@ $(document).ready(function () {
     });
 });
 
-function roll() {
-    var rol = Math.ceil((Math.random() * 6));
-    $("#score").html(rol);
+function Player() {
+    this.name= "";
+    this.totalS
 }
 
 $("#roll").click(function () {
     roll();
-});
+})
 
 
 
