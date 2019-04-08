@@ -10,10 +10,30 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
 }
+.well{
+    opacity: 0.88;
+}
+.well>h3{
+    text-align: center;
+    font-family: Helvetica;
+    text-decoration: underline;
+}
+.well>h3:hover{
+    color:blue;
+    cursor: pointer;
+    font-family: arial;
+}
 
 #rules>h4 {
     text-decoration: underline;
     font-family: unset;
+    
+}
+#rules>p{
+    color: black;
+}
+#tron>p{
+    color: black;
 }
 .jumbotron{
     opacity: 0.88;
@@ -75,34 +95,9 @@ body{
     box-shadow: 0px 0px 10px #eee;
     color:white;
 }
-#gamingArea {
-    width:80%;
-    margin: 10px auto;
-    font-size:22.5px;
+
+p{
+    color: white;
+    font-size: 26px;
 }
 
-.player2Area {
-background-color: transparent;
-border:2px solid #ddd;
-border-radius:4px;
-padding-bottom:20px;
-padding-top: 20px; 
-text-align: center;
-color: white;
-}
-.player1Area{
-    background-color: transparent;
-border:2px solid #ddd;
-border-radius:4px;
-padding-bottom:20px;
-padding-top: 20px; 
-text-align: center;
-color: white;
-}
-.player1,player2{
-    font-weight:bold;
-    font-size:30px;
-}
-.disableGamingArea {
-    opacity: 0.3;
-}
