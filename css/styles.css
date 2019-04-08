@@ -10,6 +10,19 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
 }
+.well{
+    opacity: 0.88;
+}
+.well>h3{
+    text-align: center;
+    font-family: Helvetica;
+    text-decoration: underline;
+}
+.well>h3:hover{
+    color:blue;
+    cursor: pointer;
+    font-family: arial;
+}
 
 #rules>h4 {
     text-decoration: underline;
