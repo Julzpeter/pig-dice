@@ -7,8 +7,15 @@ Author
 
 Pig dice is a game which in its basic form is playable with just a single die you win by the first player to reach 100points or more. It is cosidered a jeopardy game,where you risk everything to see if you can win more. The numbers on the dice (except one) each represents points
 
-
-
+### BDD
+|Behavior                          | INPUT               | OUTPUT                            |
+|----------------------------------|---------------------|-----------------------------------|
+|Roll a  dice                      | Click to roll a dice| Randomly gets any no on the dice  |
+|Player holds score                | Clicks to hold      | Will pass to the next player      |
+|Player rolls a dice with one      | Clicks to roll 1, 5 | Adds 0 to the overall score       |
+|Player rolls 2 ones               | Clicks to roll      | Resets overall to zerO            |
+|Player redems 100                 | 100                 | PLayer wins                       |
+|Rest the game                     | Click to play again | Set the overall score both to zero|
 ## Setup/Installation Requirements
 * You need to have 
 * an updated chrome
