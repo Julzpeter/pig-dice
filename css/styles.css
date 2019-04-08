@@ -27,6 +27,13 @@ body{
 #rules>h4 {
     text-decoration: underline;
     font-family: unset;
+    
+}
+#rules>p{
+    color: black;
+}
+#tron>p{
+    color: black;
 }
 .jumbotron{
     opacity: 0.88;
